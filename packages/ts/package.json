@@ -1,0 +1,30 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Hoang Nam <particle4dev@gmail.com> (particle4dev)",
+  "homepage": "https://github.com/particle4dev/learn-lernajs#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "dist": "dist",
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/particle4dev/learn-lernajs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/particle4dev/learn-lernajs/issues"
+  }
+}

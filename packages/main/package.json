@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "api": "file:../api",
     "lodash": "^4.17.11",
-    "api": "file:../api"
+    "ts": "file:../ts"
   }
 }
