@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "npmClient": "npm",
+  "hoist": false,
+  "scripts": {
+    "postinstall": "lerna exec -- npm install && lerna run prepare"
+  },
+  "devDependencies": {
+    "lerna": "^3.6.0"
+  }
+}
